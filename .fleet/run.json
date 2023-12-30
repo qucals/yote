@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "type": "cargo",
+      "name": "yote_run",
+      "cargoArgs": [
+        "run"
+      ],
+    },
+    {
+      "type": "cargo",
+      "name": "yote_build",
+      "cargoArgs": [
+        "buiild"
+      ],
+    },
+    {
+      "type": "cargo",
+      "name": "yote_check",
+      "cargoArgs": [
+        "check"
+      ],
+    },
+    {
+      "type": "cargo",
+      "name": "yote_test",
+      "cargoArgs": [
+        "test"
+      ],
+    },
+  ]
+}
